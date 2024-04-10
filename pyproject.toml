@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kondo_impurity_helper"
+version = "0.0.1"
+authors = [
+  { name="Rui-Hao Bi", email="biruihao@westlake.edu.cn"},
+]
+description="A helper package to generate DEOM inputs for Kondo impurity model."
+readme = "README.md"
+requires-python = ">=3.8"
